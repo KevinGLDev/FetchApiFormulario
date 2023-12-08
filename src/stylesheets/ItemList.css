@@ -1,0 +1,31 @@
+.item-list{
+    
+    transition: .5s;
+
+    
+}
+
+.item-list:hover{
+    transform: scale(1.1);
+    color: rgb(202, 126, 126);
+    
+    border-radius: 20px;
+}
+
+.item-list p{
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.btn-delete{
+    width: 65px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    transition: .5s;
+}
+.btn-delete:hover{
+    background-color: red;
+    color: black;
+    transform: scale(1.1);
+}

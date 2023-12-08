@@ -1,0 +1,58 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#span{
+    color: red;
+    margin-bottom: 20px;
+}
+
+.campo-formulario{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+label{
+    margin-right: 30px;
+    width: 50px;
+    height: 30px;
+    padding-top: 5px;
+    
+}
+
+input[type="text"]{
+    height: 25px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.campo-formulario2{
+    display: contents;
+}
+
+textarea{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+input[type="submit"]{
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    transition: .5s;
+    background-color: black;
+    color: white;
+
+}
+
+input[type="submit"]:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+}

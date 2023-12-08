@@ -1,0 +1,30 @@
+#listContent{
+    width: 700px;
+}
+.subtitulo{
+    margin-bottom: 15px;
+}
+
+.btn-refresh{
+    margin-bottom: 20px;
+    width: 130px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    transition: .5s;
+
+}
+
+.btn-refresh:hover{
+    transform: scale(1.1);
+    color: black;
+    background-color: white;
+}
+
+
+#lista{
+    
+    margin-bottom: 20px;
+    width: 600px;
+}
